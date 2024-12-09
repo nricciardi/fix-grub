@@ -74,6 +74,14 @@ reboot
 ```
 
 
+## Post fix
+
+Reset Windows entry point in EFI:
+
+```bash
+grub2-mkconfig -o /boot/grub2/grub.cfg
+```
+
 
 
 
